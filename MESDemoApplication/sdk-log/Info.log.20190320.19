@@ -1,0 +1,33 @@
+2019-03-20 19:00:59,914 [1] INFO : New ifactory client object <7ff78c7d-d3c7-43d9-b930-c23e8b341ac5>  created.
+2019-03-20 19:00:59,982 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:02:00,193 [1] INFO : New ifactory client object <67849dd1-3015-4fa9-a6c1-8ea50397ead3>  created.
+2019-03-20 19:02:00,255 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:03:18,721 [1] INFO : iFactory Server amqp://admin:admin@192.168.100.30:5672/pack disconnected, auto retry connection.
+2019-03-20 19:03:47,150 [1] INFO : New ifactory client object <853f01d9-1f5c-4589-83c7-3321a2dd276f>  created.
+2019-03-20 19:03:47,221 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:04:39,856 [1] INFO : New ifactory client object <2db2ed9e-24b5-41b9-990e-7326d0e3272e>  created.
+2019-03-20 19:04:39,952 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:06:17,434 [1] INFO : New ifactory client object <8bf92e9c-2c18-45d1-b0ba-2fc8958c9028>  created.
+2019-03-20 19:06:17,562 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:08:26,688 [1] INFO : New ifactory client object <da1833be-caea-4e01-8eed-0984062470f9>  created.
+2019-03-20 19:08:26,755 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:15:04,755 [1] INFO : New ifactory client object <2114ce1f-153f-46bf-92ab-4a562d9457c6>  created.
+2019-03-20 19:15:04,832 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:15:25,907 [1] ERROR: Connect to MQTT Server <amqp://admin:admin@192.168.100.30:5672/pack> failure: None of the specified endpoints were reachable
+2019-03-20 19:15:46,933 [1] ERROR: Connect to MQTT Server <amqp://admin:admin@192.168.100.30:5672/pack> failure: None of the specified endpoints were reachable
+2019-03-20 19:15:46,934 [1] INFO : Message command process thread started.
+2019-03-20 19:15:46,936 [1] INFO : iFactory Server amqp://admin:admin@192.168.100.30:5672/pack disconnected, auto retry connection.
+2019-03-20 19:16:07,949 [1] ERROR: Connect to MQTT Server <amqp://admin:admin@192.168.100.30:5672/pack> failure: None of the specified endpoints were reachable
+2019-03-20 19:16:59,137 [1] INFO : New ifactory client object <b7226da6-4bb7-43f8-acb0-7eec252f4174>  created.
+2019-03-20 19:16:59,222 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:17:20,287 [1] ERROR: Connect to MQTT Server <amqp://admin:admin@192.168.100.30:5672/pack> failure: None of the specified endpoints were reachable
+2019-03-20 19:17:50,828 [1] INFO : New ifactory client object <9e7659eb-37c7-456a-a9fc-53ee6baf6493>  created.
+2019-03-20 19:17:50,905 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:18:32,588 [1] INFO : New ifactory client object <e98b16f8-dbe2-4419-8718-7f07d4920571>  created.
+2019-03-20 19:18:32,661 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:19:52,468 [1] INFO : New ifactory client object <7abbbc3b-0688-40ac-a300-8fa913bde4be>  created.
+2019-03-20 19:19:52,569 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:20:03,950 [1] INFO : New ifactory client object <3bce03b5-cc2e-4fd3-82cc-b27d3e1aa613>  created.
+2019-03-20 19:20:04,017 [1] INFO : Get local IP address: 192.168.0.173
+2019-03-20 19:20:37,303 [1] INFO : New ifactory client object <5b4f66f6-c3e8-48ab-b006-a05702513d44>  created.
+2019-03-20 19:20:37,397 [1] INFO : Get local IP address: 192.168.0.173

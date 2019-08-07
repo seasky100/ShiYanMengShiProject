@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ADO">
+      <UniqueIdentifier>{6454db60-d068-47bd-967a-464e57346bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MES">
+      <UniqueIdentifier>{f0c30f57-9409-4ec1-b2a6-34a55d284a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AGV">
+      <UniqueIdentifier>{46b5e106-1079-4cee-8cb0-3bc71b6cf5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zigbee">
+      <UniqueIdentifier>{2d8189cc-711c-4080-8faa-b23cabaf764e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AES">
+      <UniqueIdentifier>{421c65f3-2667-4dbf-b7c3-38552d1c2db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{9fac13e4-06ac-4c7f-9501-8bf4d02d59a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ADO\ADOConn.cpp">
+      <Filter>ADO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MESDemo\CMES.cpp">
+      <Filter>MES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AGVDemo\CAGV.cpp">
+      <Filter>AGV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ZIGBEECallDemo\CZigbeeControler.cpp">
+      <Filter>Zigbee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Data\AES.cpp">
+      <Filter>AES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\json\json_reader.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\json\json_value.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\json\json_writer.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRFID.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTraffiic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CStation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ADO\ADOConn.h">
+      <Filter>ADO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MESDemo\CMES.h">
+      <Filter>MES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AGVDemo\CAGV.h">
+      <Filter>AGV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ZIGBEECallDemo\CZigbeeCaller.h">
+      <Filter>Zigbee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ZIGBEECallDemo\CZigbeeControler.h">
+      <Filter>Zigbee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\AES.h">
+      <Filter>AES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\allocator.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\assertions.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\autolink.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\config.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\features.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\forwards.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json_tool.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\reader.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\value.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\version.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\writer.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\json\json_valueiterator.inl">
+      <Filter>JSON</Filter>
+    </None>
+  </ItemGroup>
+</Project>

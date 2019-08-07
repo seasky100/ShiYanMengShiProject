@@ -1,0 +1,92 @@
+{
+  "Exchange": [
+    {
+      "Source": [ 1, 3 ],
+      "Exchange": 2
+    },
+    {
+      "Source": [ 4, 6 ],
+      "Exchange": 5
+    },
+    {
+      "Source": [ 7, 9 ],
+      "Exchange": 8
+    },
+    {
+      "Source": [ 10, 12 ],
+      "Exchange": 11
+    },
+    {
+      "Source": [ 13, 15 ],
+      "Exchange": 14
+    },
+    {
+      "Source": [ 16, 18 ],
+      "Exchange": 17
+    },
+    {
+      "Source": [ 19, 21 ],
+      "Exchange": 20
+    },
+    {
+      "Source": [ 22, 24 ],
+      "Exchange": 23
+    },
+    {
+      "Source": [ 25, 27 ],
+      "Exchange": 26
+    },
+    {
+      "Source": [ 28, 30 ],
+      "Exchange": 29
+    },
+    {
+      "Source": [ 31, 33 ],
+      "Exchange": 32
+    },
+    {
+      "Source": [ 34, 36 ],
+      "Exchange": 35
+    },
+    {
+      "Source": [ 37, 39 ],
+      "Exchange": 38
+    },
+    {
+      "Source": [ 40, 42 ],
+      "Exchange": 41
+    },
+    {
+      "Source": [ 43, 45 ],
+      "Exchange": 44
+    },
+    {
+      "Source": [ 134, 135 ],
+      "Exchange": 89
+    },
+    {
+      "Source": [ 46, 48 ],
+      "Exchange": 47
+    },
+    {
+      "Source": [ 49, 51 ],
+      "Exchange": 50
+    },
+    {
+      "Source": [ 52, 54 ],
+      "Exchange": 53
+    },
+    {
+      "Source": [ 16, 18 ],
+      "Exchange": 17
+    },
+    {
+      "Source": [ 112 ],
+      "Exchange": 111
+    },
+    {
+      "Source": [ 116, 117 ],
+      "Exchange": 115
+    }
+  ]
+}

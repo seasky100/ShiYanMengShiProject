@@ -1,0 +1,10 @@
+﻿以管理员模式运行开发控制台，在DLL所在目录下执行注册命令
+注册DLL：
+regasm Kel.IFactory.Mqtt.Client.dll /codebase /tlb:Kel.IFactory.Mqtt.Client.tlb
+反注册DLL:
+regasm Kel.IFactory.Mqtt.Client.dll /unregister
+
+C:/Windows/Microsoft.NET/Framework/v2.0.50727/ragasm Kel.IFactory.Mqtt.Client.dll /codebase /tlb:Kel.IFactory.Mqtt.Client.tlb
+C:/Windows/Microsoft.NET/Framework/v4.0.30319/ragasm Kel.IFactory.Mqtt.Client.dll /codebase /tlb:Kel.IFactory.Mqtt.Client.tlb
+C:/Windows/Microsoft.NET/Framework/v4.0.30319/RegAsm.exe Kel.IFactory.Mqtt.Client.dll /codebase /tlb:Kel.IFactory.Mqtt.Client.tlb
+C:/Windows/Microsoft.NET/Framework/v4.0.30319/RegAsm.exe Kel.IFactory.Mqtt.Client.dll /unregister

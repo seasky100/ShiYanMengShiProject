@@ -1,0 +1,8 @@
+{
+  // 链接串
+  "Connect": "Provider=SQLOLEDB.1;Persist Security Info=False;Initial Catalog=AGVSysDB",
+  // 用户名
+  "User": "",
+  // 密码
+  "Password": ""
+}

@@ -1,0 +1,204 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MESDemo", "MESDemo\MESDemo.vcxproj", "{E65053F1-17F4-46D7-9F34-31DF4E04A711}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADO", "ADO", "{2622D92C-D0D6-4432-AA45-C50E08E39A10}"
+	ProjectSection(SolutionItems) = preProject
+		ADO\ADOConn.cpp = ADO\ADOConn.cpp
+		ADO\ADOConn.h = ADO\ADOConn.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JSON", "JSON", "{5B0C1958-7B62-462C-BE1F-E1DB1FA1D6AA}"
+	ProjectSection(SolutionItems) = preProject
+		json\allocator.h = json\allocator.h
+		json\assertions.h = json\assertions.h
+		json\autolink.h = json\autolink.h
+		json\config.h = json\config.h
+		json\features.h = json\features.h
+		json\forwards.h = json\forwards.h
+		json\json.h = json\json.h
+		json\json_reader.cpp = json\json_reader.cpp
+		json\json_tool.h = json\json_tool.h
+		json\json_value.cpp = json\json_value.cpp
+		json\json_valueiterator.inl = json\json_valueiterator.inl
+		json\json_writer.cpp = json\json_writer.cpp
+		json\reader.h = json\reader.h
+		json\value.h = json\value.h
+		json\version.h = json\version.h
+		json\writer.h = json\writer.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XML", "XML", "{53E860C5-EFAF-405B-9581-C55E66B64FA7}"
+	ProjectSection(SolutionItems) = preProject
+		XML\tinystr.cpp = XML\tinystr.cpp
+		XML\tinystr.h = XML\tinystr.h
+		XML\tinyxml.cpp = XML\tinyxml.cpp
+		XML\tinyxml.h = XML\tinyxml.h
+		XML\tinyxmlerror.cpp = XML\tinyxmlerror.cpp
+		XML\tinyxmlparser.cpp = XML\tinyxmlparser.cpp
+		XML\Xml.h = XML\Xml.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "String", "String", "{63248F3A-0A6B-46C8-9AB4-5874F68923A6}"
+	ProjectSection(SolutionItems) = preProject
+		String\Buffer.h = String\Buffer.h
+		String\DebugPrint.h = String\DebugPrint.h
+		String\StringEx.h = String\StringEx.h
+		String\SystemLog.h = String\SystemLog.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{7DC08618-C19B-43EE-8FC0-3DC92927F71E}"
+	ProjectSection(SolutionItems) = preProject
+		Data\AES.cpp = Data\AES.cpp
+		Data\AES.h = Data\AES.h
+		Data\CRC.h = Data\CRC.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommunicateDemo", "CommunicateDemo\CommunicateDemo.vcxproj", "{84C9CFD8-743F-4999-BA27-70D90F98E9B5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZIGBEECallDemo", "ZIGBEECallDemo\ZIGBEECallDemo.vcxproj", "{4D640118-A136-405D-9B4A-6F948B8D8A7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Thread", "Thread", "{9CBD2A1F-88E8-4D36-99C6-3AD36E25B61E}"
+	ProjectSection(SolutionItems) = preProject
+		Thread\ThreadEx.h = Thread\ThreadEx.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AGVDemo", "AGVDemo\AGVDemo.vcxproj", "{D5E2D252-ECB7-45FD-846F-10E11DB90251}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AGVSimularDemo", "AGVSimularDemo\AGVSimularDemo.vcxproj", "{4C34ABDB-FEE8-4C69-945A-C6DE9B839DAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectDemo", "ProjectDemo\ProjectDemo.vcxproj", "{DA8BC469-EBE4-484B-9CAD-56E76860EC3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZigbeeCallerSimularDemo", "ZigbeeCallerSimularDemo\ZigbeeCallerSimularDemo.vcxproj", "{C0786EED-9E21-469B-B189-C29305D7D1A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ViewDemo", "ViewDemo\ViewDemo.vcxproj", "{19327C43-8A0E-4C6C-94A7-F17F482EF556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{582FC469-18E2-4B43-A864-15C9E8AE865C}"
+	ProjectSection(SolutionItems) = preProject
+		Graph\CGraph.cpp = Graph\CGraph.cpp
+		Graph\CGraph.h = Graph\CGraph.h
+		Graph\CGraphicAGV.cpp = Graph\CGraphicAGV.cpp
+		Graph\CGraphicAGV.h = Graph\CGraphicAGV.h
+		Graph\CGraphicBackground.cpp = Graph\CGraphicBackground.cpp
+		Graph\CGraphicBackground.h = Graph\CGraphicBackground.h
+		Graph\CGraphicCharger.cpp = Graph\CGraphicCharger.cpp
+		Graph\CGraphicCharger.h = Graph\CGraphicCharger.h
+		Graph\CGraphicRest.cpp = Graph\CGraphicRest.cpp
+		Graph\CGraphicRest.h = Graph\CGraphicRest.h
+		Graph\CGraphicRFID.cpp = Graph\CGraphicRFID.cpp
+		Graph\CGraphicRFID.h = Graph\CGraphicRFID.h
+		Graph\CGraphicStation.cpp = Graph\CGraphicStation.cpp
+		Graph\CGraphicStation.h = Graph\CGraphicStation.h
+		Graph\CGraphicTrack.cpp = Graph\CGraphicTrack.cpp
+		Graph\CGraphicTrack.h = Graph\CGraphicTrack.h
+		Graph\CGraphicWidget.cpp = Graph\CGraphicWidget.cpp
+		Graph\CGraphicWidget.h = Graph\CGraphicWidget.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "File", "File", "{4A01B3BF-161C-49D9-B48A-31EE43E03508}"
+	ProjectSection(SolutionItems) = preProject
+		File\ADO.json = File\ADO.json
+		File\AGVs.json = File\AGVs.json
+		File\ExchangeRFID.json = File\ExchangeRFID.json
+		File\Map.json = File\Map.json
+		File\MES.json = File\MES.json
+		File\RFIDs.json = File\RFIDs.json
+		File\Server.json = File\Server.json
+		File\Stations.Json = File\Stations.Json
+		File\Traffics.json = File\Traffics.json
+		File\Zigbee.json = File\Zigbee.json
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectApp2.0", "ProjectApp2.0\ProjectApp.vcxproj", "{F8DC4965-E6BC-4FBA-A76C-A543A0F1AF8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E65053F1-17F4-46D7-9F34-31DF4E04A711}.Debug|x64.ActiveCfg = Debug|x64
+		{E65053F1-17F4-46D7-9F34-31DF4E04A711}.Debug|x64.Build.0 = Debug|x64
+		{E65053F1-17F4-46D7-9F34-31DF4E04A711}.Debug|x86.ActiveCfg = Debug|Win32
+		{E65053F1-17F4-46D7-9F34-31DF4E04A711}.Debug|x86.Build.0 = Debug|Win32
+		{E65053F1-17F4-46D7-9F34-31DF4E04A711}.Release|x64.ActiveCfg = Release|x64
+		{E65053F1-17F4-46D7-9F34-31DF4E04A711}.Release|x64.Build.0 = Release|x64
+		{E65053F1-17F4-46D7-9F34-31DF4E04A711}.Release|x86.ActiveCfg = Release|Win32
+		{E65053F1-17F4-46D7-9F34-31DF4E04A711}.Release|x86.Build.0 = Release|Win32
+		{84C9CFD8-743F-4999-BA27-70D90F98E9B5}.Debug|x64.ActiveCfg = Debug|x64
+		{84C9CFD8-743F-4999-BA27-70D90F98E9B5}.Debug|x64.Build.0 = Debug|x64
+		{84C9CFD8-743F-4999-BA27-70D90F98E9B5}.Debug|x86.ActiveCfg = Debug|Win32
+		{84C9CFD8-743F-4999-BA27-70D90F98E9B5}.Debug|x86.Build.0 = Debug|Win32
+		{84C9CFD8-743F-4999-BA27-70D90F98E9B5}.Release|x64.ActiveCfg = Release|x64
+		{84C9CFD8-743F-4999-BA27-70D90F98E9B5}.Release|x64.Build.0 = Release|x64
+		{84C9CFD8-743F-4999-BA27-70D90F98E9B5}.Release|x86.ActiveCfg = Release|Win32
+		{84C9CFD8-743F-4999-BA27-70D90F98E9B5}.Release|x86.Build.0 = Release|Win32
+		{4D640118-A136-405D-9B4A-6F948B8D8A7E}.Debug|x64.ActiveCfg = Debug|x64
+		{4D640118-A136-405D-9B4A-6F948B8D8A7E}.Debug|x64.Build.0 = Debug|x64
+		{4D640118-A136-405D-9B4A-6F948B8D8A7E}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D640118-A136-405D-9B4A-6F948B8D8A7E}.Debug|x86.Build.0 = Debug|Win32
+		{4D640118-A136-405D-9B4A-6F948B8D8A7E}.Release|x64.ActiveCfg = Release|x64
+		{4D640118-A136-405D-9B4A-6F948B8D8A7E}.Release|x64.Build.0 = Release|x64
+		{4D640118-A136-405D-9B4A-6F948B8D8A7E}.Release|x86.ActiveCfg = Release|Win32
+		{4D640118-A136-405D-9B4A-6F948B8D8A7E}.Release|x86.Build.0 = Release|Win32
+		{D5E2D252-ECB7-45FD-846F-10E11DB90251}.Debug|x64.ActiveCfg = Debug|x64
+		{D5E2D252-ECB7-45FD-846F-10E11DB90251}.Debug|x64.Build.0 = Debug|x64
+		{D5E2D252-ECB7-45FD-846F-10E11DB90251}.Debug|x86.ActiveCfg = Debug|Win32
+		{D5E2D252-ECB7-45FD-846F-10E11DB90251}.Debug|x86.Build.0 = Debug|Win32
+		{D5E2D252-ECB7-45FD-846F-10E11DB90251}.Release|x64.ActiveCfg = Release|x64
+		{D5E2D252-ECB7-45FD-846F-10E11DB90251}.Release|x64.Build.0 = Release|x64
+		{D5E2D252-ECB7-45FD-846F-10E11DB90251}.Release|x86.ActiveCfg = Release|Win32
+		{D5E2D252-ECB7-45FD-846F-10E11DB90251}.Release|x86.Build.0 = Release|Win32
+		{4C34ABDB-FEE8-4C69-945A-C6DE9B839DAC}.Debug|x64.ActiveCfg = Debug|x64
+		{4C34ABDB-FEE8-4C69-945A-C6DE9B839DAC}.Debug|x64.Build.0 = Debug|x64
+		{4C34ABDB-FEE8-4C69-945A-C6DE9B839DAC}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C34ABDB-FEE8-4C69-945A-C6DE9B839DAC}.Debug|x86.Build.0 = Debug|Win32
+		{4C34ABDB-FEE8-4C69-945A-C6DE9B839DAC}.Release|x64.ActiveCfg = Release|x64
+		{4C34ABDB-FEE8-4C69-945A-C6DE9B839DAC}.Release|x64.Build.0 = Release|x64
+		{4C34ABDB-FEE8-4C69-945A-C6DE9B839DAC}.Release|x86.ActiveCfg = Release|Win32
+		{4C34ABDB-FEE8-4C69-945A-C6DE9B839DAC}.Release|x86.Build.0 = Release|Win32
+		{DA8BC469-EBE4-484B-9CAD-56E76860EC3C}.Debug|x64.ActiveCfg = Debug|x64
+		{DA8BC469-EBE4-484B-9CAD-56E76860EC3C}.Debug|x64.Build.0 = Debug|x64
+		{DA8BC469-EBE4-484B-9CAD-56E76860EC3C}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA8BC469-EBE4-484B-9CAD-56E76860EC3C}.Debug|x86.Build.0 = Debug|Win32
+		{DA8BC469-EBE4-484B-9CAD-56E76860EC3C}.Release|x64.ActiveCfg = Release|x64
+		{DA8BC469-EBE4-484B-9CAD-56E76860EC3C}.Release|x64.Build.0 = Release|x64
+		{DA8BC469-EBE4-484B-9CAD-56E76860EC3C}.Release|x86.ActiveCfg = Release|Win32
+		{DA8BC469-EBE4-484B-9CAD-56E76860EC3C}.Release|x86.Build.0 = Release|Win32
+		{C0786EED-9E21-469B-B189-C29305D7D1A3}.Debug|x64.ActiveCfg = Debug|x64
+		{C0786EED-9E21-469B-B189-C29305D7D1A3}.Debug|x64.Build.0 = Debug|x64
+		{C0786EED-9E21-469B-B189-C29305D7D1A3}.Debug|x86.ActiveCfg = Debug|Win32
+		{C0786EED-9E21-469B-B189-C29305D7D1A3}.Debug|x86.Build.0 = Debug|Win32
+		{C0786EED-9E21-469B-B189-C29305D7D1A3}.Release|x64.ActiveCfg = Release|x64
+		{C0786EED-9E21-469B-B189-C29305D7D1A3}.Release|x64.Build.0 = Release|x64
+		{C0786EED-9E21-469B-B189-C29305D7D1A3}.Release|x86.ActiveCfg = Release|Win32
+		{C0786EED-9E21-469B-B189-C29305D7D1A3}.Release|x86.Build.0 = Release|Win32
+		{19327C43-8A0E-4C6C-94A7-F17F482EF556}.Debug|x64.ActiveCfg = Debug|x64
+		{19327C43-8A0E-4C6C-94A7-F17F482EF556}.Debug|x64.Build.0 = Debug|x64
+		{19327C43-8A0E-4C6C-94A7-F17F482EF556}.Debug|x86.ActiveCfg = Debug|Win32
+		{19327C43-8A0E-4C6C-94A7-F17F482EF556}.Debug|x86.Build.0 = Debug|Win32
+		{19327C43-8A0E-4C6C-94A7-F17F482EF556}.Release|x64.ActiveCfg = Release|x64
+		{19327C43-8A0E-4C6C-94A7-F17F482EF556}.Release|x64.Build.0 = Release|x64
+		{19327C43-8A0E-4C6C-94A7-F17F482EF556}.Release|x86.ActiveCfg = Release|Win32
+		{19327C43-8A0E-4C6C-94A7-F17F482EF556}.Release|x86.Build.0 = Release|Win32
+		{F8DC4965-E6BC-4FBA-A76C-A543A0F1AF8C}.Debug|x64.ActiveCfg = Debug|x64
+		{F8DC4965-E6BC-4FBA-A76C-A543A0F1AF8C}.Debug|x64.Build.0 = Debug|x64
+		{F8DC4965-E6BC-4FBA-A76C-A543A0F1AF8C}.Debug|x86.ActiveCfg = Debug|Win32
+		{F8DC4965-E6BC-4FBA-A76C-A543A0F1AF8C}.Debug|x86.Build.0 = Debug|Win32
+		{F8DC4965-E6BC-4FBA-A76C-A543A0F1AF8C}.Release|x64.ActiveCfg = Release|x64
+		{F8DC4965-E6BC-4FBA-A76C-A543A0F1AF8C}.Release|x64.Build.0 = Release|x64
+		{F8DC4965-E6BC-4FBA-A76C-A543A0F1AF8C}.Release|x86.ActiveCfg = Release|Win32
+		{F8DC4965-E6BC-4FBA-A76C-A543A0F1AF8C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DA095F0-FF2F-4864-9AA7-8A3A776BEA64}
+	EndGlobalSection
+EndGlobal

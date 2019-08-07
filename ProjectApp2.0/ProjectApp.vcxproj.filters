@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ADO">
+      <UniqueIdentifier>{e79cdfb5-f604-45a3-af34-45d63aa85f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{6dccee9c-697f-49e2-9f8f-f427bdf87f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{013f1ac7-8266-4b6e-9b5e-6eb02d2e0b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String">
+      <UniqueIdentifier>{ec0d3a23-85c7-42c1-95df-2a906b1efd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{dc931d51-c3dd-445b-81cd-e1de0c6bc2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{ac87ca61-a0d5-4f78-9a21-b08e82caaa06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AES">
+      <UniqueIdentifier>{ac30fec6-961d-4f42-a30f-7aa963b87f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AGV">
+      <UniqueIdentifier>{34f2ab67-4234-4d6d-8ebf-69a83cd0133a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MES">
+      <UniqueIdentifier>{82732fa6-3e7a-48a8-86b6-b1ee20b11425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zigbee">
+      <UniqueIdentifier>{c668546d-3a6b-4b57-a1bf-11420dfa5c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function">
+      <UniqueIdentifier>{2f5cbe23-6d91-4af2-a654-fa0e2780c5c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProjectApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ADO\ADOConn.h">
+      <Filter>ADO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graph\CGraph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graph\CGraphicAGV.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graph\CGraphicBackground.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graph\CGraphicCharger.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graph\CGraphicRest.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graph\CGraphicRFID.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graph\CGraphicStation.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graph\CGraphicTrack.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graph\CGraphicWidget.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\allocator.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\assertions.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\autolink.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\config.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\features.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\forwards.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\json_tool.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\reader.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\value.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\version.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\json\writer.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\String\Buffer.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="..\String\DebugPrint.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="..\String\StringEx.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="..\String\SystemLog.h">
+      <Filter>String</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Thread\ThreadEx.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XML\tinystr.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XML\tinyxml.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\XML\Xml.h">
+      <Filter>XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ViewDemo\CGraphicCaller.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ViewDemo\CGraphicMap.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Data\AES.h">
+      <Filter>AES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AGVDemo\CAGV.h">
+      <Filter>AGV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MESDemo\CMES.h">
+      <Filter>MES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ZIGBEECallDemo\CZigbeeCaller.h">
+      <Filter>Zigbee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ZIGBEECallDemo\CZigbeeControler.h">
+      <Filter>Zigbee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ProjectDemo\BaseFunction.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ProjectDemo\ServiceFunction.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ProjectDemo\CRFID.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ProjectDemo\CStation.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ProjectDemo\CTraffiic.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetRFIDDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetStationDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetCallerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetAGVDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAGVStatusDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCallerStatusDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CStationConfigDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CCreateTaskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserLoginDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CAddUserDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditUserDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CDeleteUserDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProjectApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ADO\ADOConn.cpp">
+      <Filter>ADO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graph\CGraph.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graph\CGraphicAGV.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graph\CGraphicBackground.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graph\CGraphicCharger.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graph\CGraphicRest.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graph\CGraphicRFID.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graph\CGraphicStation.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graph\CGraphicTrack.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graph\CGraphicWidget.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\json\json_reader.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\json\json_value.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\json\json_writer.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XML\tinystr.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XML\tinyxml.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XML\tinyxmlerror.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\XML\tinyxmlparser.cpp">
+      <Filter>XML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ViewDemo\CGraphicCaller.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ViewDemo\CGraphicMap.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Data\AES.cpp">
+      <Filter>AES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AGVDemo\CAGV.cpp">
+      <Filter>AGV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MESDemo\CMES.cpp">
+      <Filter>MES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ZIGBEECallDemo\CZigbeeControler.cpp">
+      <Filter>Zigbee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ProjectDemo\BaseFunction.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ProjectDemo\ServiceFunction.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetRFIDDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetStationDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetCallerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetAGVDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAGVStatusDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCallerStatusDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CStationConfigDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CCreateTaskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserLoginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CAddUserDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditUserDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CDeleteUserDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProjectApp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\userimages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ProjectApp.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Image\RFID.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Image\工位.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Image\充电站.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Image\待机位.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Image\呼叫器.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Image\弧线.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Image\直线.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Image\编辑模式.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Image\运行模式.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ProjectApp.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\json\json_valueiterator.inl">
+      <Filter>JSON</Filter>
+    </None>
+  </ItemGroup>
+</Project>
